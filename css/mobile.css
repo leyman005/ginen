@@ -1,0 +1,173 @@
+@media only screen and (max-width: 960px)
+{
+	#about-section2
+	{
+		padding-left: 15px;
+	}
+
+	.service
+	{
+		height: 250vh;
+	}
+	#first-part
+	{
+	    border-radius: 0 0 0 0;
+	    height: auto;
+	}
+
+	#first-part ul
+	{
+		flex-direction: column-reverse;
+		position: absolute;
+	}
+
+	#first-part .main-container ul li
+	{
+		width: 80%;
+		margin: 30px 0;
+		height: 40vh;
+	}
+	
+	#first-part .main-container ul li span
+    {
+		padding: 5px;
+    }
+
+	#first-part .main-container ul li p
+	{
+		text-align: justify;
+		padding: 0 10px;
+	}
+
+
+	#section-4 .main-container
+	{
+		flex-direction: column;
+	}
+
+	.card-section1
+	{
+		/*border: 1px solid blue;*/
+		width: 43%;
+		transform: none;
+		flex: 2;
+		margin: 15px auto;
+	}
+
+	.card-section1 img 
+	{
+		width: 97%
+	}
+}
+
+
+@media only screen and (max-width: 900px)
+{
+	/*.line
+	{
+		top: 62%;
+	}*/
+
+	#logo img
+	{
+		width: 120px;
+		height: 55px;
+	}
+
+
+	.navbar
+	{
+		display: none;
+	}
+
+	.navbar li a:hover::before
+	{
+		background: none;
+		height: 0px;
+	}
+
+
+	.show
+	{
+		background: transparent;
+		display: flex;
+		flex-direction: column;
+		/*border: 1px solid blue;*/
+		transition: all 2s linear;
+		/*position: relative;*/
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.show li
+	{
+		padding: 1.2em 0 1.2em 1.2em;
+	}
+
+	.show li a
+	{
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #fff;
+		padding: 0.8em;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.bar-wrap
+	{
+		width: 37px;
+		height: 7vh;
+		position: relative;
+		cursor: pointer;
+		margin: 8px 40px; 
+	}
+
+	.bar
+	{
+		display: block;
+		width: 35px;
+		height: 2px;
+		background: #fff;
+		padding: 0;
+		margin: 0;
+	}
+
+	#bar1
+	{
+		top: 10px;
+	}
+
+	#bar2
+	{
+		top: 20px;
+	}
+
+	#bar3
+	{
+		top: 30px;
+	}
+}
+
+@media only screen and (max-width:581px)
+{
+	footer .main-container
+	{
+		flex-direction: column;
+	}
+
+	#footer-1, #footer-2, #footer-3
+	{
+		text-align: center;
+		margin: auto;
+	}
+
+	.line
+	{
+		font-size: 12px;
+	}
+
+
+}
+

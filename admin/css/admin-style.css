@@ -1,0 +1,162 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Cabin;
+}
+
+body
+{
+	background: #fff;
+	height: 50vh;
+}
+
+#bar
+{
+	position: relative;
+	top:380px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	padding: 25px;
+	background: #f99219;
+	z-index: 0;
+}
+#bar a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.container
+{
+	width: 70%;
+	margin: auto;
+}
+
+.container form
+{
+	border: 8px solid #f99219;
+	width: 350px;
+	/*min-height: 30vh;*/
+	margin: 180px auto;
+	position: relative;
+	top: 0;
+	padding: 10px 40px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 1px 1px 10px #000 inset;
+}
+.container form hr
+{
+	margin: 10px 0;
+}
+
+.input-group-addon
+{
+	padding: .5rem .75rem;
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.25;
+	color:
+	#495057;
+	text-align: center;
+	background-color:
+	#e9ecef;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: .25rem;
+}
+
+#sign-in
+{
+	position: absolute;
+	bottom: 29px;
+	right: 120px;
+	color: #fff;
+}
+
+/*.input-group
+{
+	padding: 15px;
+	text-align: left;
+}*/
+
+/*.input-group label
+{
+	text-align: left;
+}*/
+
+/*#txtusername, #txtpassword
+{
+	
+	line-height: 25px;
+	width: 100%;
+	margin: 5px 0;
+}*/
+
+input[type='submit']
+{
+	/*border: 1px solid red;*/
+	padding: 3px;
+	background: #f99219;
+	width: 60%;
+	color: #fff;
+	font-size: 16px;
+	margin: 10px 13px;
+	border-radius: 15px;
+}
+
+.danger
+{
+	background: #aa0306;
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 210px auto;
+	z-index: 2;
+	transition: background 1s linear;
+	display: none;
+}
+
+.success
+{
+	background: #5cb85c;
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 210px auto;
+	z-index: 2;
+	transition: background 1s linear;
+}
+
+/*Dashboard design
+header
+{
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+}
+
+header a
+{
+	flex: 2;
+	border: 1px solid blue;
+}
+header h2
+{
+
+	flex: 3;
+	font-style: normal;
+	font-size: 14px;
+}
+*/

@@ -1,0 +1,170 @@
+.slider-bar
+{
+	/*border: 1px solid blue;*/
+	
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  opacity: 0.9;
+  /*background: #4CAF50;*/
+  /*background: #1475BC;*/
+  background: rgba(0,0,0,0.4);
+
+  cursor: pointer;
+}
+
+.slider
+{
+	background-color: #F6931E;
+  	opacity: 0.9;
+  	width: 180px;
+	position: absolute;
+	left: 150px;
+	right: 0;
+	margin: 10px auto;
+	padding: 0;
+}
+
+.slider:hover, .slider::-moz-range-thumb:hover
+{
+  	opacity: 1;
+}
+
+
+#quotation
+{
+	/*border: 1px solid blue;*/
+	background: #fff;
+	width: 100%;
+	margin: auto;
+}
+
+#sec-1
+{
+	/*border: 1px solid red;*/
+	background: url('../../images/header.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 58vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#sec-2
+{
+	/*border: 1px solid orange;*/
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0;
+}
+
+#sec-2a
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	flex-basis: 35%;
+	padding: 10px 20px;
+	border-radius: 25px;
+}
+.name
+{
+	width: 180px;
+	background: none;
+	margin: 5px;
+	border: none;
+	font-size: 14px;
+	/*border: 1px solid green;*/
+}
+.address
+{
+	width: 370px;
+	border: none;
+	background: none;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.email
+{
+	width: 250px;
+	border: none;
+	background: none;
+	text-align: center;
+	font-size: 14px;
+}
+.request
+{
+	width: 160px;
+	border: none;
+	background: none;
+	text-align: center;
+	font-size: 14px;
+}
+#sec-2a ul, #sec-2b ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#sec-2b
+{
+	flex-basis: 30%;
+}
+
+#sec-3
+{
+	/*border: 1px solid brown;*/
+	text-align: center;
+	margin: 15px 10px;
+	position: relative;
+}
+#sec-3 h4
+{
+	font-weight: bold;
+	font-size: 22px;
+}
+#sec-3 a
+{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1px 8px;
+	background: #F6931E;
+	color: #fff;
+}
+
+#sec-5
+{
+	text-align: center;
+}
+input[type='number']
+{
+	width: 50px;
+}
+
+input[type='text']
+{
+	width: 150px;
+}
+
+
+#footer
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	background: url('../../images/footer.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 20vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	bottom: 0;
+}

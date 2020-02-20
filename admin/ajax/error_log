@@ -1,0 +1,8 @@
+[08-Oct-2019 20:00:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ginencoz_manley'@'localhost' to database 'ginencoz_db' in /home/ginencoz/public_html/admin/config/Connection.php on line 20
+[08-Oct-2019 20:00:00 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/ginencoz/public_html/admin/classes/User.php on line 19
+[08-Oct-2019 20:00:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/ginencoz/public_html/admin/classes/User.php:20
+Stack trace:
+#0 /home/ginencoz/public_html/admin/classes/User.php(40): User->checkUsername('baba')
+#1 /home/ginencoz/public_html/admin/ajax/login.php(19): User->authenticateUser('baba', '123')
+#2 {main}
+  thrown in /home/ginencoz/public_html/admin/classes/User.php on line 20

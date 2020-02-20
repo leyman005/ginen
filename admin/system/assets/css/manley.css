@@ -1,0 +1,15 @@
+#upt
+{
+	display: none;
+}
+#hide
+{
+	display: none;
+}
+#show, #hide
+{
+	position: absolute;
+	top: 370px;
+	right: 35px;
+	cursor: pointer;
+}
